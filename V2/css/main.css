@@ -598,6 +598,11 @@ footer p{
 		margin-bottom: 60px;
 	}
 
+	#cursuri h2 {
+		padding-top: 130px;
+	}
+
+
 /* SUPPORT*/
 	
 	#donation {
@@ -695,6 +700,18 @@ footer p{
 		margin-top: 70px;
 	}
 
+/* STICKY HEADER*/
+
+	header {
+		position: fixed;
+		width: 100%;
+		z-index: 1000;
+	}
+
+	#hero {
+		position: relative;
+		top: 70px;
+	}
 
 }	
 

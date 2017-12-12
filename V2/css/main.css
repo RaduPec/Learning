@@ -1,0 +1,739 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	max-width: 1140px;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER section*/
+
+header {
+	background: #EF4C23;
+	color: white;
+	padding-top: 22px;
+	min-height: 70px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header #logo {
+	display: inline-block;
+	margin-bottom: 20px;
+	float: left;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px;
+	font-family: Poppins;
+}
+
+header nav {
+	text-align: right;
+	margin-top: 15px;
+}
+
+label {
+	font-size: 26px;
+	display: none;
+	width: 26px;
+	float: right;
+}
+
+.menu {
+	float: right;
+}
+
+#toggle {
+	display: none;
+}
+
+/* HERO section*/
+
+#hero {
+	min-height: 600px;
+	background-image: url("../img/Hero bkg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	border-bottom: #2B3A42 3px solid;
+}
+
+#hero h1 {
+	padding-top: 113px;
+	font-size: 28px;
+	font-family: Arvo;
+	line-height: 2;
+	font-weight: 700;
+	max-width: 790px;
+	margin: 0 auto;
+}
+
+.highlight {
+	color: #EF4C23;
+	background-color: white;
+	padding: 5px 10px; 
+}
+
+.button {
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #2B3A42;
+	border-radius: 8px;
+	margin-top: 70px;
+}
+
+.button img{
+	position: relative;
+	top:6px;
+	left: 18%;
+	float: left;
+}
+
+.button p {
+	position: relative;
+	left: 7px;
+	top: 16px;
+	font-family: Poppins;
+	color: white;
+	font-size: 1rem;
+}
+
+
+/* CURSURI section*/
+
+#cursuri{
+	min-height: 600px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	background-image: url("../img/courses bkg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: #2B3A42 3px solid;
+}
+
+#cursuri h2 {
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-family: Poppins;
+	font-weight: 500;
+	padding-top: 105px;
+}
+
+#cursuri p {
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-family: Arvo;
+	max-width: 650px;
+	line-height: 1.9;
+	padding-top: 35px;
+}
+
+#cursuri img {
+	display: block;
+    margin: auto;
+    padding-top: 80px;
+}
+
+#cursuri h4 {
+	height: 44px;
+	width: 225px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	margin-top: 58px;
+	background-color: #EF4C23;
+	border-radius: 8px;
+	line-height: 44px;
+}
+
+
+/* SUPPORT section*/
+
+#support {
+	min-height: 630px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	background-image: url("../img/support bkg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: #2B3A42 3px solid;
+}
+
+#support h2 {
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-family: Poppins;
+	font-weight: 500;
+	padding-top: 105px;
+}
+
+#support p {
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-family: Arvo;
+	max-width: 650px;
+	line-height: 1.9;
+	padding-top: 35px;
+}
+
+#support img {
+	display: block;
+    margin: auto;
+    padding-top: 57px;
+}
+
+#support #imgmobile {
+	display: none;
+}
+
+#butoane {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#donation {
+	display:inline-block;
+	height: 44px;
+	width: 225px;
+	margin: 36px 0px 0px 0px;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	background-color: #EF4C23;
+	border-radius: 8px;
+	line-height: 44px;
+}
+
+#cola {
+	display:inline-block;
+	height: 40px;
+	width: 220px;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	background-color: transparent;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 8px;
+	margin: 36px 0px 0px 33px;
+	line-height: 40px;
+}
+
+/* GET INVOLVED section*/
+
+#involved {
+	text-align: center;
+
+}
+
+#involved .box {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	padding-top: 60px;
+	vertical-align: top;
+
+}
+
+#involved h2{
+	text-align: center;
+	margin: 0 auto;
+	font-family: Poppins;
+	font-weight: 500;
+	padding-top: 108px;
+}
+
+#involved h4{
+	text-align: center;
+	margin: 0 auto;
+	font-family: Poppins;
+	font-weight: 400;
+	padding-top: 20px;
+	max-width: 66%;
+	line-height: 1.9;
+}
+
+#involved p{
+	text-align: center;
+	margin: 0 auto;
+	font-family: Arvo;
+	font-size: 16px;
+	line-height: 1.9;
+	padding-top: 35px;
+}
+
+#involved h3{
+	height: 44px;
+	width: 225px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	margin-top: 58px;
+	background-color: #EF4C23;
+	border-radius: 8px;
+	line-height: 44px;
+	margin-bottom: 120px;
+}
+
+
+
+/* SUBSCRIBE section*/
+
+#contact {
+	text-align: center;
+	height: 600px;
+	background-image: url("../img/contact bkg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#contact h2 {
+	font-family: Poppins;
+	font-weight: 500;
+	color: white;
+	padding-top: 108px;
+	margin: 0;
+}
+
+#contact p {
+	font-family: Arvo;
+	color: white;
+	line-height: 1.9;
+	margin: 0 auto;
+	max-width: 460px;
+	padding-top: 32px;
+}
+
+#contact input{
+	margin-top: 70px;
+	width: 415px;
+	height: 50px;
+	text-align: center;
+	border-style: none;
+	border-radius: 7px;
+	font-family: Poppins;
+
+}
+
+#contact h4{
+	height: 44px;
+	width: 225px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	margin-top: 97px;
+	background-color: #2b3a42;
+	border-radius: 8px;
+	line-height: 44px
+}
+
+/* FOOTER section*/
+
+footer {
+	max-height: 620px;
+	background-color: #2b3a42;
+}
+
+footer ul{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li{
+	display: inline-block;
+	text-align: center;
+	font-family: Poppins;
+	color: white;
+	font-weight: 500;
+	margin-top: 138px;
+	padding: 0 29px;
+}
+
+footer p{
+	font-family: Arvo;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+	line-height: 1.9;
+	width: 450px;
+	margin: 67px auto 0;
+}
+
+.social {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.social img{
+	padding: 0 46px;
+}
+
+.copy {
+	padding-bottom: 45px;
+	margin-top: 70px;
+}
+
+
+
+/* ////// MEDIA QUERIES //////*/
+
+/* HAMBURGER*/
+
+@media only screen and (max-width: 845px) {
+
+	.container {
+		width: 90%;
+	}
+
+	header nav {
+		margin-top: 5px;
+	}
+	
+	header li {
+		display: block;
+		float: none;
+	}
+
+	label {
+		display: block;
+		cursor: pointer;
+	}
+
+	.menu {
+		text-align: center;
+		width: 100%;
+		display: none;
+		line-height: 4;
+		background-color: #EF4C23;
+		z-index: 9999; 
+	}
+
+	.menu a {
+		display: block;
+		border-bottom: 1px solid white;
+		margin: 0;
+	}
+
+
+	#toggle:checked + .menu {
+		display: block;
+	}
+
+/* HERO*/
+
+	#hero {
+		min-height: 400px;
+		background-position: center center;
+	}
+
+	#hero h1 {
+		font-size: 1.5em;
+		padding-top: 50px;
+		width: 100%;
+	}
+
+	.button {
+		margin-bottom: 50px;
+	}
+
+/* COURSES*/
+
+	#cursuri {
+		min-height: 500px;
+	}
+
+	#cursuri h2 {
+		padding-top: 70px;
+	}
+
+	#cursuri h4 {
+		margin-bottom: 60px;
+	}
+
+
+/* SUPPORT*/
+
+	#support {
+		max-height: 700px;
+	}
+
+	#support h2 {
+		padding-top: 70px;
+	}
+
+	#cola {
+		margin: 25px 0 2px 33px;
+	}
+
+
+/* INVOLVED*/
+	#invloved {
+		min-height: 1000px;
+	}
+
+	#invloved h2{
+		margin-top: 85px;
+	}
+
+	#involved .box {
+		width: 26%;
+	}
+
+	#involved .box p {
+		font-size: 15px;
+	}
+
+	#involved h3 {
+		margin-bottom: 65px;
+	}
+
+
+/* FOOTER*/
+
+	.copy {
+		padding-bottom: 45px;
+		margin-top: 70px;
+	}
+
+}
+
+
+@media only screen and (max-width: 554px) {
+
+	#cola {
+		margin: 25px 0 60px 20px;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+
+	#donation {
+		display: block;
+		margin: 0 auto;
+		margin-top: 35px;
+	}
+
+	#cola {
+		margin: 25px 0 70px 0px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 470px) {
+
+
+	#hero h1 {
+		font-size: 21px;
+	}
+
+	.button {
+		width: 100%;
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+
+
+	.button img{
+	top:6px;
+	left: 30%;
+	}
+
+
+/* COURSES*/
+
+	#cursuri p {
+		font-size: 14px;
+		font-weight: 400;
+		padding-top: 17px;
+	}
+
+	#cursuri h4 {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+/* SUPPORT*/
+	
+	#donation {
+		width: 100%
+	}
+
+	#support p {
+		font-size: 14px;
+	}
+
+	#cola {
+		width: 99%;
+		margin: 25px 0 60px 0;
+	}
+
+	#support img {
+		display: none;
+	}
+
+	#support #imgmobile {
+		display: block;
+	}
+
+
+/* INVOLVED*/
+
+	#involved .box {
+	display: block;
+	width: 100%;
+	padding: 50px 0 0 0;
+	}
+
+	#involved h4{
+		font-size: 14px;
+		max-width: 90%;
+		padding-bottom: 10px;
+	}
+
+	#involved h3{
+		width: 100%;
+		margin-top: 53px;
+	}
+
+/*CONTACT*/
+
+	#contact {
+		max-height: 415px;
+		background-position: center center;
+	}
+
+	#contact h2 {
+		padding-top: 70px;
+	}
+
+	#contact p {
+		font-size: 14px;
+	}
+
+	#contact input{
+		width: 98%;
+		margin-top: 33px;
+	}
+
+	#contact h4 {
+		margin-top: 50px;
+		width: 100%;
+		margin-bottom: 65%;
+	}
+
+/* FOOTER*/
+
+	footer {
+		max-height: 650px;
+	}
+
+	footer ul li {
+		display: block;
+		margin: 0;
+		padding-top: 35px;	
+	}
+
+	footer p{
+	font-weight: 400;
+	font-size: 14px;
+	width: 90%;
+	margin: 67px auto 0;
+	}
+
+	.social img {
+		padding: 0 20px;
+	}
+
+	.copy {
+		padding-bottom: 45px;
+		margin-top: 70px;
+	}
+
+
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
